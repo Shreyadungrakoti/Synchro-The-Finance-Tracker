@@ -47,23 +47,17 @@ This project implements a complete CI/CT/CD pipeline using Git, Jenkins, and Doc
 
 ### Local Development
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/Ayush-Bitla/DevOpsProject.git
-   cd DevOpsProject
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Run the application:
+2. Run the application:
    ```
    python app.py
    ```
 
-4. Access the application at `http://localhost:5000`
+3. Access the application at `http://localhost:5000`
 
 ### Docker Deployment
 
