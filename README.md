@@ -11,38 +11,6 @@ Finance Tracker is a Flask-based web application that allows users to:
 - Generate charts and statistics about spending habits
 - Track spending by different payment methods (Cash, UPI, Credit/Debit Cards)
 
-## CI/CT/CD Pipeline
-
-This project implements a complete CI/CT/CD pipeline using Git, Jenkins, and Docker:
-
-### Pipeline Flow:
-
-1. **Continuous Integration**
-   - Code is pushed to GitHub repository
-   - Webhook triggers Jenkins pipeline
-   - Jenkins checks out the code
-   - Dependencies are installed
-   - Code is linted for quality
-   - Tests are executed
-
-2. **Continuous Testing**
-   - Unit tests verify core functionality
-   - Integration tests check API endpoints
-   - Test coverage reports are generated
-
-3. **Continuous Deployment**
-   - Docker image is built
-   - Image is pushed to Docker Hub
-   - Application is deployed using Docker Compose
-
-## Technology Stack
-
-- **Backend**: Python, Flask
-- **Database**: SQLite
-- **Frontend**: HTML, CSS, JavaScript, Chart.js
-- **CI/CD**: Jenkins, Docker
-- **Testing**: pytest, pytest-flask
-
 ## Setup & Run Instructions
 
 ### Local Development
